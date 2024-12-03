@@ -3,7 +3,7 @@ import face from '../../assets/face.png'
 import insta from '../../assets/insta.png'
 import linkedin from '../../assets/linkedin.png'
 import youtube from '../../assets/youtube.png'
-import twitter from '../../assets/img/twitter'
+import twitter from '../../assets/img/twitter.png'
 
 
 export default function footer(){

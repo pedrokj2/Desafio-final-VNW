@@ -1,6 +1,107 @@
-.banner{
-    background-image: url('../../assets/banner.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 88vh;
+.banner {
+  background-image: url("../../assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  h2 {
+    color: rgb(247, 243, 243);
+    margin-left: 150px;
+    font-size: 40px;
+    width: 26vw;
+  }
+}
+
+.devoDoar {
+  height: 80vh;
+  div {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 30px;
+      margin-left: 60px;
+      color: rgba(0, 86, 149, 1);
+    }
+  }
+}
+
+.boxCard {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  article {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(1, 87, 148, 0.3);
+    border-radius: 10px;
+    p {
+      text-align: center;
+      width: 70%;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .boxCard {
+    article {
+      p {
+        font-size: 1.5vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .banner {
+    background-image: url("../../assets/banner.png");
+    h2 {
+      width: 70%;
+      text-align: center;
+      font-size: 28px;
+      margin-left: 0;
+    }
+  }
+}
+
+.devoDoar {
+  height: 120vh;
+  div {
+    justify-content: center;
+    h2 {
+      margin-left: 0;
+    }
+  }
+
+  .boxCard {
+    height: 100vh;
+    flex-wrap: wrap;
+    article {
+      width: 200px;
+      height: 250px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 427px) {
+  .devoDoar {
+    height: 220vh;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+  }
+  .boxCard {
+    height: auto;
+  }
 }

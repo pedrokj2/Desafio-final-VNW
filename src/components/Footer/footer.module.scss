@@ -1,0 +1,35 @@
+footer{
+    height: 30vh;
+    color: white;
+}
+
+.boxSocial{
+    background-color: rgba(0, 86, 149, 1);
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding-left: 60px;
+    padding-right: 50px;
+    nav{
+        width: 18vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.boxTexto{
+    background-color: rgba(35, 32, 32, 1) ;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    p{
+        font-weight: 700;
+        font-size: 15px;
+    }
+   
+
+}

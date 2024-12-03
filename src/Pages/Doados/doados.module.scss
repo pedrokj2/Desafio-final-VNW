@@ -1,0 +1,24 @@
+.boxDoados{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxCard{
+    width: 85vw;
+    height: 60vh;
+    article{
+        border: solid 2px #005695;
+        width: 15vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 13px;
+        
+    }
+
+}

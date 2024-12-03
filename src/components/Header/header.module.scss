@@ -1,58 +1,118 @@
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 27, 47, 1) 0%,
+    rgba(0, 86, 149, 1) 88%
+  );
+}
 
-header{
-    
-    height: 15vh;
+.boxLogo {
+  width: 23vw;
+  display: flex;
+  align-items: center;
+  height: 14vh;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.boxMenu {
+  width: 35vw;
+  ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, rgba(0,27,47,1)0%, rgba(0,86,149,1) 88%);
-   
+    a {
+      color: white;
+      font-size: 20px;
+    }
+  }
 }
 
-.boxLogo{
-   
-    
-    width: 23vw;
-    display: flex;
-    align-items: center;
-    height: 14vh;
-    justify-content: space-evenly;
+.boxInput {
+  border: solid 2px white;
+  width: 17vw;
+  height: 6vh;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  input {
+    background-color: transparent;
+    outline: none;
+    border: none;
     color: white;
-    
+    font-size: 15px;
+    &::placeholder {
+      color: white;
+    }
+  }
 }
 
-.boxMenu{
-    
-    width: 35vw;
-    ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        a{
-            color: white;
-            font-size: 20px;
-        }
+@media (max-width: 1170px) {
+  .boxLogo {
+    h1 {
+      font-size: 1.8vw;
     }
+    img {
+      width: 5vw;
+    }
+  }
+
+  .boxMenu {
+    ul {
+      font-size: 1.6vw;
+    }
+  }
+  .boxInput {
+    width: 16vw;
+    Input {
+      &::placeholder {
+        font-size: 1.3vw;
+      }
+    }
+  }
 }
-  
-.boxInput{
-    border: solid 2px white;
-    width: 17vw;
-    height: 6vh;
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
+
+@media (max-width: 760px) {
+  header {
+    height: 25vh;
+    flex-direction: column;
     justify-content: space-around;
-    border-radius: 15px;
-    input{
-        background-color: transparent;
-        outline: none;
-        border: none;
-        color: white;
-        font-size: 15px;
-        &::placeholder{
-            color: white;
-        }
-    }
+  }
 
+  .boxInput {
+    display: none;
+  }
+
+  .boxLogo {
+    width: 100%;
+    justify-content:space-evenly;
+    h1 {
+      font-size: 28px;
+    }
+    img {
+      width: 50px;
+    }
+  }
+
+  .boxMenu {
+    width: 100%;
+    ul {
+      font-size: 22px;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .boxMenu {
+    ul {
+      font-size: 18px;
+    }
+  }
 }

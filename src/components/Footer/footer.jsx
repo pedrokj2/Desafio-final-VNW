@@ -3,7 +3,8 @@ import face from '../../assets/face.png'
 import insta from '../../assets/insta.png'
 import linkedin from '../../assets/linkedin.png'
 import youtube from '../../assets/youtube.png'
-import twittericon from '../../assets/twitter.png'
+import twitter from '../../assets/img/twitter'
+
 
 export default function footer(){
     return(
@@ -13,7 +14,7 @@ export default function footer(){
                 <nav>
                     <a href=""> <img src={face} alt="imagem da rede social facebook" /></a>
                     <a href=""> <img src={insta} alt="imagem da rede social instagram" /></a>
-                    <a href=""> <img src={twittericon} alt="imagem da rede social twitter" /></a>
+                    <a href=""> <img src={twitter} alt="imagem da rede social twitter" /></a>
                     <a href=""> <img src={linkedin} alt="imagem da rede social de trabalho linkedin" /></a>
                     <a href=""> <img src={youtube} alt="imagem da logo do youtube" /></a>
                 </nav>

@@ -1,9 +1,9 @@
 import S from './footer.module.scss'
 import face from '../../assets/face.png'
 import insta from '../../assets/insta.png'
-//import twitter from '../../assets/twitter.png'
 import linkedin from '../../assets/linkedin.png'
 import youtube from '../../assets/youtube.png'
+import twittericon from '../../assets/twitter.png'
 
 export default function footer(){
     return(
@@ -13,7 +13,7 @@ export default function footer(){
                 <nav>
                     <a href=""> <img src={face} alt="" /></a>
                     <a href=""> <img src={insta} alt="" /></a>
-                    <a href=""> <img src={twitter} alt="" /></a>
+                    <a href=""> <img src={twittericon} alt="" /></a>
                     <a href=""> <img src={linkedin} alt="" /></a>
                     <a href=""> <img src={youtube} alt="" /></a>
                 </nav>

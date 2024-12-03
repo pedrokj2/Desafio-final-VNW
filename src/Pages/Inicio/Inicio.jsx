@@ -18,7 +18,6 @@ export default function Inicio() {
           <article>
             <img src={pessoas} alt="Imagem de pessoas como figura" />
             <p>
-              {" "}
               Oferece livros a quem não tem acesso, ajudando a reduzir a
               exclusão social.
             </p>

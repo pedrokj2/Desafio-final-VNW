@@ -1,7 +1,7 @@
 import S from './footer.module.scss'
 import face from '../../assets/face.png'
 import insta from '../../assets/insta.png'
-import twitter from '../../assets/twitter.png'
+//import twitter from '../../assets/twitter.png'
 import linkedin from '../../assets/linkedin.png'
 import youtube from '../../assets/youtube.png'
 

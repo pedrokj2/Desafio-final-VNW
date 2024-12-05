@@ -3,16 +3,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+  
 }
 
 .boxCard{
-    width: 85vw;
+    width: 85vh;
     height: 60vh;
+    display: flex;
+
     article{
         border: solid 2px #005695;
-        width: 15vw;
-        height: 30vh;
+        width: 15vh;
+        height: 32vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -20,5 +23,68 @@
         border-radius: 13px;
         
     }
+}
 
+@media screen and (max-width: 900px) {
+    .boxDoados {
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .boxCard {
+        width: 100%; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+        align-items: flex-start; 
+    }
+
+    .boxCard article {
+        width: 20vh; 
+        height: 25vh; 
+        margin: 10px; 
+    }
+}
+
+
+@media screen and (max-width: 390px){
+    .boxDoados {
+        height: auto; 
+        padding: 10px; 
+        
+    }
+
+    .boxCard {
+        width: 100%; 
+        flex-direction: column; 
+        align-items: center; 
+        
+    }
+
+    .boxCard article {
+        width: 80%; 
+        height: auto; 
+        margin-bottom: 15px;
+   }
+}
+
+@media(max-width: 390px) {
+    .boxDoados {
+        height: auto; 
+        padding: 10px; 
+        
+    }
+
+    .boxCard {
+        width: 100%; 
+        flex-direction: column; 
+        align-items: center; 
+        
+    }
+
+    .boxCard article {
+        width: 80%; 
+        height: auto; 
+        margin-bottom: 15px; 
+       
+    }
 }

@@ -5,17 +5,27 @@ footer{
 
 .boxSocial{
     background-color: rgba(0, 86, 149, 1);
-    height: 19vh;
+    height: 20vh;
     display: flex;
     align-items: center;
-    justify-content:  space-between;
-    padding-left: 60px;
-    padding-right: 50px;
+    justify-content: center;
+    //padding-left: 60px;
+    //padding-right: 50px;
+    overflow: hidden;
+    flex-direction: column;
     nav{
-        width: 18vw;
+        //width: 18vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    nav img{
+         padding-left: 25px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
     }
 }
 
